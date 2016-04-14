@@ -24,7 +24,11 @@ public class MainActivity extends AppCompatActivity {
         conectar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"Usuario Correcto", Toast.LENGTH_LONG).show();
+
+                String textUsuario = usuario.getText().toString();
+                String textContraseña = contraseña.getText().toString();
+
+                Toast.makeText(MainActivity.this, "Usuario Correcto", Toast.LENGTH_LONG).show();
             }
         });
     }
