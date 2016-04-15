@@ -8,12 +8,9 @@ android:layout_height="match_parent">
         android:layout_height="wrap_content"
         android:text="PENDIENTES"
         android:id="@+id/button_pendientes"
-        android:layout_marginTop="77dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="43dp"
-        android:layout_marginStart="43dp" />
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp" />
 
     <Button
         android:layout_width="wrap_content"

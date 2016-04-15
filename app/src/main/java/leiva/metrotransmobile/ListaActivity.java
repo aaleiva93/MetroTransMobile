@@ -6,11 +6,11 @@ import android.os.Bundle;
 /**
  * Created by USUARIO on 15/04/2016.
  */
-public class PedidosActivity extends Activity {
+public class ListaActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pedidos_activity);
+        setContentView(R.layout.lista_activity);
     }
 }
